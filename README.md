@@ -44,3 +44,13 @@ Avautuu selaimeen localhost-porttiin 3000.
 Näkymä Post-linkistä:
 ![Kuva](./reactcodes/src/image/ReactNakyma.JPG)
 
+## 5. Tarpeen kiinnitys Postiin
+
+Postiin voidaan kiinnittää tarve. Tarve voidaan kiinnittää vain yhteen postiin. 
+Kun se kiinnitetty johonkin postiin, sitä ei enää näy Tarve-alasvetovalikkossa.
+backend-koodin tarveController.js:ssä haetaan Tarve-alasvetovalikkoon vain 
+vapaat tarpeet.
+
+Näkymä Post-linkistä:
+![Kuva](./reactcodes/src/image/TarpeenKiinnittäminenPostiin.JPG)
+
