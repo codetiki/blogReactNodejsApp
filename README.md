@@ -9,9 +9,6 @@ Kuvat on reactcodes-kansion image-kansiossa.
 Backend-koodi on nodejs-express-sequelize-mysql-kansiossa.
 Frontend-koodi on reactcodes-kansiossa.
 
-![Kuva](./reactcodes/src/image/ploki-tietokanta.JPG)
-
-
 ## 2. SQL
 
 Tietokanta on luotu oppilas-tietokanta phpMyAdmin-ohjelmalla.
