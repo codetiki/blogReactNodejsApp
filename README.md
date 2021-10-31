@@ -52,5 +52,5 @@ backend-koodin tarveController.js:ssä haetaan Tarve-alasvetovalikkoon vain
 vapaat tarpeet.
 
 Näkymä Post-linkistä:
-![Kuva](./reactcodes/src/image/TarpeenKiinnittaminenPostiin.JPG)
+![Kuva](./reactcodes/src/image/TarpeenKiinittaminenPostiin.JPG)
 
