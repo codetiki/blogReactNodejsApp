@@ -9,7 +9,7 @@ Kuvat on image-kansiossa.
 Backend-koodi on node-kansiossa.
 Frontend-koodi on reactcodes-kansiossa.
 
-![Kuva](./image/paakansioRakenne.JPG)
+![Kuva](.reactcodes/src/image/ploki-tietokanta.JPG)
 
 
 ## 2. SQL
