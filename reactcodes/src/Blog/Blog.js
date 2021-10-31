@@ -7,7 +7,7 @@ import "../components/Navbar.css"
 // luetaan käyttäjän tekemät hakuvalintat, josta luodaan query-statemuuttujaan merkkijono
 const doSearchQuery = (ammatti) => {
     let r = [];
-    if (ammatti != '') r.push(ammatti);
+    if (ammatti !== '') r.push(ammatti);
 
     return r
 }
@@ -39,7 +39,7 @@ const Blog = () => {
             const data = await response.json();
             setBlogit(data.data);
         }
-        if (query != '') {
+        if (query !== '') {
             fetchBlogit();
         }
     }, [query])

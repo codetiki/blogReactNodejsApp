@@ -4,26 +4,24 @@
 
 ### 1.1 Näkymä Pääkansiorakenteesta
 
-Koko sovellus on oppilas-kansiossa.
-Kuvat on image-kansiossa. 
-Backend-koodi on node-kansiossa.
+Koko sovellus on ReactNodejs-kansiossa.
+Kuvat on reactcodes-kansion image-kansiossa. 
+Backend-koodi on nodejs-express-sequelize-mysql-kansiossa.
 Frontend-koodi on reactcodes-kansiossa.
-
-![Kuva](.reactcodes/src/image/ploki-tietokanta.JPG)
-
 
 ## 2. SQL
 
 Tietokanta on luotu oppilas-tietokanta phpMyAdmin-ohjelmalla.
 
-![Kuva](./image/oppilasTietokanta.JPG)
+![Kuva](./reactcodes/src/image/ploki-tietokanta.JPG)
 
 ## 3. Backend
 
 Backend-koodi om luotu Nodejs:llä. 
 
 Backend-serveri laitetaan päälle seuraavasti...
-Mene oppilas-tiedoston juureen (pääkansio) ja avaa node server komennolla `nodemon ./node/index.js` Avautuu localhost-porttiin 3002.
+Mene nodejs-express-sequelize-mysql-kansion juureen (pääkansio) ja avaa node server komennolla `nodemon ./node/index.js` 
+Avautuu localhost-porttiin 3002.
 Kun serveri käynnistyy komentokehotteessa näkyy seuraavaa...
 
 ```
@@ -34,3 +32,15 @@ Kun serveri käynnistyy komentokehotteessa näkyy seuraavaa...
 [nodemon] starting `node ./node/index.js`
 Server running at http://127.0.0.1:3002/
 ```
+
+## 4. Frontend
+
+Frontend-koodi om luotu React:lla. 
+
+Frontend-serveri laitetaan päälle seuraavasti...
+Mene reactcodes-kansion juureen (pääkansio) ja avaa node server komennolla `npm start` 
+Avautuu selaimeen localhost-porttiin 3000.
+
+Näkymä Post-linkistä:
+![Kuva](./reactcodes/src/image/ReactNakyma.JPG)
+
