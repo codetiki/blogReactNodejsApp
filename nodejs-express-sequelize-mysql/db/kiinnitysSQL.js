@@ -2,6 +2,20 @@ const Table = require('./utils/dbutils');
 
 
 module.exports = {
+	
+	 /*
+    getVapaatTarpeet: (tarveId) => {
+        // console.log("getNimikkeet SQL alkaa...");
+        let query = "SELECT * FROM kiinnitys k JOIN tarve t ON t.tarveId = k.tarveId_Id WHERE 1=1";
+
+        let params = [];
+        if (tarveId != null) {
+            query += " AND tarveId like ? "
+            params.push(tarveId + "%");
+        }
+        return Table.executeSQL(query, params);
+    },
+    */
 
     getKiinnitys: (id) => {
         let query = "SELECT * FROM kiinnitys WHERE id = ? ";
