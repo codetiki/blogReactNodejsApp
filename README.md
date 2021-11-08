@@ -55,5 +55,5 @@ Näkymä Post-linkistä:
 ![Kuva](./reactcodes/src/image/TarpeenKiinittaminenPostiin.JPG)
 
 Vaihtoehtoinen tapa tehdä suora SQL-kysely:
-![Kuva](./reactcodes/src/image/SQLNotExits.JPG)
+![Kuva](./reactcodes/src/image/SQLNotExists.JPG)
 
