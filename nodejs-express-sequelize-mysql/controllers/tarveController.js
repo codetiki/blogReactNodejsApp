@@ -30,7 +30,7 @@ module.exports = {
             res.json({ status: "NOT OK", msg: err });
         }
     },
-    /*
+    // Tämä funktio lisätty 08.11.2021
     haeKaikkiVapaat: async (req, res) => {
         try {
             let tarveId = null;
@@ -40,7 +40,6 @@ module.exports = {
 
 
             console.log("tarveId: ", tarveId);
-            console.log("kpl: ", kpl);
 
             let tarpeet = await sqlTarve.getVapaatTarpeet(tarveId);
             res.statusCode = 200;
@@ -54,7 +53,7 @@ module.exports = {
             res.json({ status: "NOT OK", msg: err });
         }
     },
-    */
+
 
 
 

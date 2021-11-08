@@ -8,6 +8,9 @@ router.route('/api/tarve').
     get(ctrl.haeKaikki);
 router.route('/api/vapaatarve').
     get(ctrl.haeVapaatTarpeet);
+router.route('/api/kaikkivapaat').
+    get(ctrl.haeKaikkiVapaat);
+
 /*
 router.route('/api/post/:postId').
     get(ctrl.haePost).

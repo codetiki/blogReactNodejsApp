@@ -2,10 +2,12 @@ const Table = require('./utils/dbutils');
 
 
 module.exports = {
-    /*
+    // Tämä funktio lisätty 08.11.2021
+    // Hakee kaikki tarpeet, joita ei ole kiinnitys-taulussa.
     getVapaatTarpeet: (tarveId) => {
         // console.log("getNimikkeet SQL alkaa...");
-        let query = "SELECT * FROM tarve t JOIN kiinnitys k ON t.tarveId = k.tarveId_Id WHERE 1=1";
+        let query = "SELECT * FROM tarve t ";
+        query += "WHERE NOT EXISTS (SELECT * FROM kiinnitys k WHERE t.tarveId = k.tarveId_Id ) ";
 
         let params = [];
         if (tarveId != null) {
@@ -14,7 +16,7 @@ module.exports = {
         }
         return Table.executeSQL(query, params);
     },
-    */
+
     getTarve: (tarveId) => {
         let query = "SELECT * FROM tarve WHERE tarveId = ? ";
         return Table.executeGetSingleSQL(query, [tarveId]);
